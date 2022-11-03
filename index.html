@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- font awesome and google fonts -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet"> 
+
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock,Paper,Scissors,Lizard and Spock Game</title>
+    <title>Try Your Luck</title>
 </head>
 <body>
+    <h1 class="heading">Try Your Luck</h1>
+
+    <div class="game-area">
+        <div class="controls-area">
+            <button class="rock">
+                <i class="fa-regular fa-hand-fist"></i>
+            </button>
+            <button class="paper">
+                <i class="fa-regular fa-hand"></i>
+            </button>
+            <button class="scissor">
+                <i class="fa-regular fa-hand-scissors"></i>
+            </button>
+            <button class="lizard">
+                <i class="fa-regular fa-hand-lizard"></i>
+            </button>
+            <button class="spock">
+                <i class="fa-regular fa-hand-spock"></i>
+            </button>
+            <div class="score-area">
+                <p class="scores">You <span id="score">0</span></p>
+                <p class="scores">Computer<span id="incorrect">0</span></p>
+            </div>
+            <button>Reset</button>
+    </div>
+
     
 
     <script src="assets/js/script.js"></script>
