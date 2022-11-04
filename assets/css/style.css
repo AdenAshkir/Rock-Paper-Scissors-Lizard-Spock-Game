@@ -1,0 +1,81 @@
+body {
+    background-color: #ffb366;
+    font-family: "Raleway", sans-serif;
+    color: #030303;
+    text-align: center;
+}
+
+/* --------- Heading */
+
+.heading {
+    text-align: center;
+    font-size: 80px;
+    border: none;
+    color: black;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 40px;
+}
+
+/* --------- Game layout */
+
+
+.score-area {
+    margin: 5px auto;
+    width: 20%;
+    font-size: 20px;
+    background-color: beige;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+
+.controls-area {
+    width: 100%;
+    margin: 30px auto;
+}
+
+#score {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
+/* --------- Buttons */
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.773);
+}
+
+
+
+.btn--big {
+    padding-top: 10px;
+    width: 130px;
+    height: 130px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+    background-color: white;
+    border-radius: 4px;
+    border-color: #ffb366;
+}
+
+.fa-regular{
+    font-size: 100px;
+    color: black;
+}
